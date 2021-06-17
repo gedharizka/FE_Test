@@ -1,0 +1,24 @@
+.container-navbar {
+    .navbar {
+        // background: none;
+        background-color: transparent !important;
+
+        .navbar-brand {
+            img{
+                height: 32px;
+                width: 130px;
+            }
+        }
+
+        .navbar-collapse {
+            ul {
+                li {
+                    .active {
+                        color:#263d89;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+}
